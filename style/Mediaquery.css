@@ -1,0 +1,116 @@
+@media screen and (min-width: 695px) and (max-width:992px){
+    body,html{
+        background-image: url(../fundo/fundopc.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    #burguer{
+        background-color: #111111;
+    }
+
+    #box{
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    main{
+        padding: 50px 0px;
+        margin: 0px 50px 0px;
+    }
+
+    main h1{
+        margin-right: 50px;
+        font-size: 2.5em;
+    }
+
+    main h1 span{
+        font-size: 2.9;
+    }
+
+    main p{
+
+    }
+
+    form{
+        display: block;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 993px){
+
+    body{
+        background: url(../fundo/fundopc2.jpg);
+        background-position: center top;
+        background-size: cover;
+        position: relative;
+    }
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    
+
+    nav{
+        display: block
+    }
+
+    nav ul{
+        display: inline-flex;
+    }
+
+    nav ul li a{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    nav a:hover{
+        background-color: transparent;
+    }
+
+    #box{
+        margin-bottom: 50px;
+    }
+
+    main h1{
+        text-align: left;
+        font-size: 3em;
+    }
+
+    
+    form input{
+        width: 600px;
+        height: 60px;
+        margin: 20px 0px;
+        
+    }
+
+    ::placeholder{
+        font-size: 1.3em;
+    }
+
+    form input[type=submit]{
+        width: 600px;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: rgb(2, 2, 2);
+    }
+    #caixa{
+        display: none;
+        
+    }
+}
